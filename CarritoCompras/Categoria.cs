@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CarritoCompras
 {
-    class Class1
+    class Categoria
     {
     }
 }
