@@ -20,25 +20,25 @@ La aplicación debe modelar un entorno básico de tienda online, donde los usuar
 
 ### 1. Clase `Categoria`
 - **Atributos:**
-  - `Nombre`
-  - `Descripcion`
+  - Nombre
+  - Descripcion
 
 ### 2. Clase `Producto`
 - **Atributos:**
-  - `Codigo` (int único secuencial)
-  - `Nombre`
-  - `Precio`
-  - `Stock` (cantidad disponible)
-  - `Categoria` (objeto de tipo `Categoria`)
+  - Codigo (int único secuencial)
+  - Nombre
+  - Precio
+  - Stock (cantidad disponible)
+  - Categoria (objeto de tipo Categoria)
 
 ### 3. Clase `ItemCarrito`
 - **Atributos:**
-  - `Producto`
-  - `Cantidad`
+  - Producto
+  - Cantidad
 
 ### 4. Clase `Carrito`
 - **Atributos:**
-  - Lista de `ItemCarrito`
+  - Lista de ItemCarrito
 
 ### 5. Clase `Tienda`
 - **Atributos:**
@@ -59,7 +59,14 @@ El sistema debe presentar un **menú interactivo** que permita al usuario realiz
 - Ver el **contenido del carrito**
 - Ver el **total a pagar**
 - Finalizar compra
-- **Salir** del programa 
+- **Salir** del programa
+
+## EXTRA
+Este apartado es **obligatorio para el grupo de 3 integrantes**. Otros grupos que deseen implementar esta funcionalidad tambien pueden hacerlo.
+
+Se desea tambien tener un historial de compras, por lo que luego de cada compra deberan crear un `Ticket` y guardarlo en la Tienda.
+El ticket debe tener la fecha en la que se hizo la compra, un ID,los items que se compraron, la cantidad y el precio de cada uno, tambien el total que se pago por la compra.
+Ademas deberan agregar una nueva opcion en el menu llamada "Historial de compras" donde se puedan ver un listado de los IDs de los tickets y otra opcion para ver un Ticket dado su ID.
 
 ---
 
@@ -83,3 +90,4 @@ El sistema debe presentar un **menú interactivo** que permita al usuario realiz
 - La clase de la **Tienda** debe tener las listas correspondientes inicializadas para testear el programa.
 - La opcion de "finalizar compra" debe simular la transaccion, en el sentido de que una vez seleccionada se asume que el cliente paga el monto debido y se reduce el stock de los productos que se acaban de comprar.
 - La implementacion queda a cargo de cada grupo pero se deben seguir los lineamiendos planteados en el enunciado.
+- Se tendra en cuenta el uso de git (commits, ramas, etc).
