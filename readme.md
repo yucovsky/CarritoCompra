@@ -89,5 +89,5 @@ Ademas deberan agregar una nueva opcion en el menu llamada "Historial de compras
 - Se deben realizar las validaciones que considere necesaria, pero como minimo las mencionadas anteriormente.
 - La clase de la **Tienda** debe tener las listas correspondientes inicializadas para testear el programa.
 - La opcion de "finalizar compra" debe simular la transaccion, en el sentido de que una vez seleccionada se asume que el cliente paga el monto debido y se reduce el stock de los productos que se acaban de comprar.
-- La implementacion queda a cargo de cada grupo pero se deben seguir los lineamiendos planteados en el enunciado.
+- La implementacion queda a cargo de cada grupo pero se deben seguir los lineamiendos planteados en el enunciado. Deben programar todo lo necesario para que el programa sea funcional.
 - Se tendra en cuenta el uso de git (commits, ramas, etc).
