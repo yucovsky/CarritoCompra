@@ -1,12 +1,11 @@
-﻿using System;
+using System;
 
-namespace CarritoCompras
+class Program
 {
-    class Program
+    static void Main(string[] args)
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello World!");
-        }
+        var tienda = new Tienda();
+        tienda.inicializarDatos();
+        tienda.mostrarMenu();
     }
 }
