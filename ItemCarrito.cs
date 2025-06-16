@@ -4,9 +4,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-public class ItemCarrito
+namespace CarritoCompras
 {
-    //agregar codigo precio etc
-    public Producto producto { get; set; }
-    public int cantidad { get; set; }
+    public class ItemCarrito
+    {
+        public Producto producto { get; set; }
+        public int cantidad { get; set; }
+
+        public decimal calcularSubtotal()
+        {
+            return producto.precio * cantidad;
+        }
+    }
 }
