@@ -4,8 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-public class Categoria
+namespace CarritoCompras
 {
-    public string nombre { get; set; }
-    public string descripcion { get; set; }
+    public class Categoria
+    {
+        public string nombre { get; set; }
+        public string descripcion { get; set; }
+    }
 }
