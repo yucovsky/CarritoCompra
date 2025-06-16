@@ -4,19 +4,21 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-//manejo de productos, falta el tema de descuentos
-public class Producto
+namespace CarritoCompras
 {
-    private static int ultimoCodigo = 0;
-
-    public int codigo { get; }
-    public string nombre { get; set; }
-    public decimal precio { get; set; }
-    public int stock { get; set; }
-    public Categoria categoria { get; set; }
-
-    public Producto()
+    public class Producto
     {
-        codigo = ++ultimoCodigo;
+        private static int ultimoCodigo = 0;
+
+        public int codigo { get; }
+        public string nombre { get; set; }
+        public decimal precio { get; set; }
+        public int stock { get; set; }
+        public Categoria categoria { get; set; }
+
+        public Producto()
+        {
+            codigo = ++ultimoCodigo;
+        }
     }
 }
