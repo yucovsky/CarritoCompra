@@ -13,7 +13,12 @@ namespace CarritoCompras
 
         public decimal calcularSubtotal()
         {
-            return producto.precio * cantidad;
+            decimal subtotal = producto.precio * cantidad;
+            if (cantidad >= 5)
+            {
+                subtotal *= 0.85m;
+            }
+            return subtotal;
         }
     }
 }
